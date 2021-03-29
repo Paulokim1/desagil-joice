@@ -1,13 +1,10 @@
 package br.edu.insper.desagil.joice.model;
 
 public class CalculadoraCCC extends Calculadora{
-	private static String nome;
 	private double densidade;
 
 	public CalculadoraCCC() {
-		super(nome);
-		this.densidade = 0;
-		
+		super("Cúbica de Corpo Centrado");	
 	}
 	
 

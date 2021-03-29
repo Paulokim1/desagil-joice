@@ -1,12 +1,10 @@
 package br.edu.insper.desagil.joice.model;
 
 public class CalculadoraCFC extends Calculadora{
-	private static String nome;
 	private double densidade;
 
 	public CalculadoraCFC() {
-		super(nome);
-		this.densidade = 0;
+		super("Cúbica de Face Centrada");
 	}
 	
 	@Override
